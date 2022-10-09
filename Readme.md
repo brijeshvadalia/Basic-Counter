@@ -39,9 +39,9 @@
 >![BADGE](https://img.shields.io/badge/GIT-GIT-orange)
 >![BADGE](https://img.shields.io/badge/NETLIFY-NETLIFY-blue)
 
-<!-- 
+
 # HERE IS THE PREVIEW HOW THIS PROJECT LOOKS😍
-># [LIVE [HOSTED] PROJECT LINK](https://brijesh8128-button-increment.netlify.app/ "Button Increment") -->
+># [LIVE [HOSTED] PROJECT LINK](https://brijesh8128-basic-counter.netlify.app/ "Basic Counter")
 
 >![Screenshot](./Screenshot/screenshot-1.png)
 >![Screenshot](./Screenshot/screenshot-2.png)
