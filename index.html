@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Counter</h1>
+      <div class="counter">
+        <button onclick="decrease()">-</button>
+        <h1 id="number"></h1>
+        <button onclick="increase()">+</button>
+      </div>
+      <p id="error">Error</p>
+    </div>
+  </body>
+
+  <script>
+let display_number = document.querySelector('#number'); // Targetting the right h1 id
+let count = 0;                                         // Initializing the count variable
+display_number.innerHTML = count;                     // assigining the variable display_number innerhtml to count
+function decrease(){                                  // A decrease function
+  count--;                                           // decrementing the count variable
+  display_number.innerHTML = count;                  // assigining the variable display_number innerhtml to count
+}
+function increase(){                                 // A increase function
+  count++;                                           // decrementing the count variable
+  display_number.innerHTML = count;                  //assigining the variable display_number innerhtml to count
+}
+</script>
+</html>
